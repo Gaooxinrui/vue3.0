@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <HeadDome />
+  <!-- <IndexDemo /> -->
+  <UsersDome />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeadDome from './components/HeadDome.vue'
+// import IndexDemo from './components/IndexDemo.vue'
+import UsersDome from './components/UsersDome.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeadDome,
+    // IndexDemo,
+    UsersDome
   }
 }
 </script>
