@@ -36,7 +36,7 @@ export default {
     get() {
       axios.get('http://127.0.0.1/user').then(res => {
         this.user = res.data
-        // console.log(res.data);
+        console.log(res.data);
       }).catch(err => {
         console.log("获取数据失败" + err);
       })

@@ -3,7 +3,7 @@
     <el-tab-pane label="首页" name="first">
       <!-- 轮播图 -->
       <div class="block text-center">
-        <el-carousel height="600px" motion-blur>
+        <el-carousel height="300px" motion-blur>
           <el-carousel-item v-for="item in bannerImg" :key="item">
             <el-image style="width: 100%;" :src="item.url" :fit="fit" />
           </el-carousel-item>

@@ -1,20 +1,19 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HeadDome />
-  <!-- <IndexDemo /> -->
   <UsersDome />
+  <ListDome />
 </template>
 
 <script>
 import HeadDome from './components/HeadDome.vue'
-// import IndexDemo from './components/IndexDemo.vue'
+import ListDome from './components/ListDome.vue'
 import UsersDome from './components/UsersDome.vue'
 
 export default {
   name: 'App',
   components: {
     HeadDome,
-    // IndexDemo,
+    ListDome,
     UsersDome
   }
 }
